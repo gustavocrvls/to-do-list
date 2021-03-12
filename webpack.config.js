@@ -48,7 +48,10 @@ module.exports = {
         test: /\.svg$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: 'svg-url-loader',
+            options: {
+              jsx: true // true outputs JSX tags
+            }
           },
         ],
       },

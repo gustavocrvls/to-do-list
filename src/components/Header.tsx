@@ -1,5 +1,5 @@
 import '../styles/header.scss'
-const logo = require('../assets/logo.svg');
+import logo from '../assets/logo.svg';
 
 export function Header() {
   return (
