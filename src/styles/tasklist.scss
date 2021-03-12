@@ -159,3 +159,11 @@ section.task-list {
     } 
   }
 }
+
+@media (max-width: 720px) {
+  section.task-list {
+    header {
+      flex-direction: column;
+    }
+  }
+}
